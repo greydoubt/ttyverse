@@ -1,0 +1,89 @@
+:root {
+  --background: #282A36;
+  --foreground: #F8F8F2;
+  --selection: #44475A;
+  --comment: #6272A4;
+  --cyan: #8BE9FD;
+  --green: #50FA7B;
+  --orange: #FFB86C;
+  --pink: #FF79C6;
+  --purple: #BD93F9;
+  --red: #F55;
+  --yellow: #F1FA8C;
+
+  --black: #21222C;
+  --blue: #BD93F9;
+  --magenta: #FF79C6;
+  --bright_black: #6272A4;
+  --bright_red: #FF6E6E;
+  --bright_green: #69FF94;
+  --bright_yellow: #FFFFA5;
+  --bright_blue: #D6ACFF;
+  --bright_magenta: #FF92DF;
+  --bright_cyan: #A4FFFF;
+  --bright_white: #FFF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: var(--purple);
+}
+
+.code-block {
+  background: var(--black);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: var(--green);
+}
+
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.color {
+  width: 140px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 6px;
+  color: #000;
+}
+
+/* Base colors */
+.background { background: var(--background); color: var(--foreground); }
+.foreground { background: var(--foreground); }
+.selection { background: var(--selection); color: var(--foreground); }
+.comment { background: var(--comment); }
+.cyan { background: var(--cyan); }
+.green { background: var(--green); }
+.orange { background: var(--orange); }
+.pink { background: var(--pink); }
+.purple { background: var(--purple); }
+.red { background: var(--red); }
+.yellow { background: var(--yellow); }
+
+/* ANSI colors */
+.black { background: var(--black); color: var(--foreground); }
+.blue { background: var(--blue); }
+.magenta { background: var(--magenta); }
+.bright_black { background: var(--bright_black); }
+.bright_red { background: var(--bright_red); }
+.bright_green { background: var(--bright_green); }
+.bright_yellow { background: var(--bright_yellow); }
+.bright_blue { background: var(--bright_blue); }
+.bright_magenta { background: var(--bright_magenta); }
+.bright_cyan { background: var(--bright_cyan); }
+.bright_white { background: var(--bright_white); color: #000; }
