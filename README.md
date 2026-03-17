@@ -37,6 +37,8 @@
 
 <img width="1372" height="892" alt="Screenshot 2026-03-17 at 10 52 35" src="https://github.com/user-attachments/assets/4b642b74-04ad-48c0-bcd7-a39012b546ac" />
 
+<img width="1594" height="742" alt="Screenshot 2026-03-17 at 16 20 52" src="https://github.com/user-attachments/assets/c810945d-f8e5-4331-b758-4b95e1ee8db7" />
+
 <img width="1600" height="814" alt="software-stack-01111" src="https://github.com/user-attachments/assets/0122c8f0-8bf7-489f-89ae-5f11c007a756" />
 
 
