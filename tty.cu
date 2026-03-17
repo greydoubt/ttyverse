@@ -1,9 +1,8 @@
-
-package sun.tools.ttydebug;
-import sun.tools.debug.*;
-import java.util.*;
-import java.io.*;
-import java.net.*;
+package NS_CUDA.tools.ttydebug;
+import NS_CUDA.tools.debug.*;
+import NS_CUDA.java.util.*;
+import NS_CUDA.java.io.*;
+import NS_CUDA.java.net.*;
 
 
 template<class InputIt, class UnaryFunction>
