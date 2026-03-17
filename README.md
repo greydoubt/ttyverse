@@ -1,5 +1,10 @@
 # ttyverse by greydoubt (100% original not stolen)
 
+<img width="419" height="168" alt="Screenshot 2026-03-17 at 14 14 37" src="https://github.com/user-attachments/assets/018e0968-02cf-4d24-aa5b-42d12728abc8" />
+
+
+
+
     tidyr – help transform data specifically into tidy data, a table where each row is a single observation. The value of each observation is given in a column of the table. Variables describing the observation are included as additional columns.
     
     ggplot2 – for data visualization
