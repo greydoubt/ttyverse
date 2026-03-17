@@ -1,6 +1,6 @@
-Define Your Key Tables (Schema)
+// Define Your Key Tables (Schema)
 
-Use a single source of truth for all tables:
+// Use a single source of truth for all tables:
 
 // schema.js
 
@@ -67,9 +67,12 @@ Use a single source of truth for all tables:
  * @property {PostLink} postLinks
  * @property {ModerationLog} moderationLogs
  */
-✅ 2. Generic Strongly-Typed Table Factory
 
-This enforces key access + structure:
+
+
+//✅ 2. Generic Strongly-Typed Table Factory
+
+//This enforces key access + structure:
 
 // tableFactory.js
 
@@ -82,6 +85,8 @@ This enforces key access + structure:
  *   getAll: () => T[]
  * }}
  */
+
+
 export function createTable() {
   const store = new Map();
 
@@ -94,9 +99,10 @@ export function createTable() {
     getAll: () => Array.from(store.values()),
   };
 }
-✅ 3. Strongly Typed DB Instance
 
-Now bind schema → tables:
+//✅ 3. Strongly Typed DB Instance
+
+//Now bind schema → tables:
 
 // db.js
 import { createTable } from "./tableFactory.js";
@@ -119,6 +125,7 @@ const schema = {};
  *   moderationLogs: TableOf<'moderationLogs'>
  * }}
  */
+
 export const db = {
   agents: createTable(),
   communities: createTable(),
@@ -128,9 +135,10 @@ export const db = {
   postLinks: createTable(),
   moderationLogs: createTable(),
 };
-✅ 4. Key-Table Endpoint Layer
 
-Expose a type-safe access API:
+//✅ 4. Key-Table Endpoint Layer
+
+//Expose a type-safe access API:
 
 // endpoint.js
 
@@ -143,10 +151,8 @@ import { db } from "./db.js";
 export function getTable(table) {
   return db[table];
 }
-✅ 5. Usage (Fully Typed in JS)
 
-With VSCode or any TS-aware editor:
-
+//✅ 5. Usage (Fully Typed in JS)
 import { getTable } from "./endpoint.js";
 
 const posts = getTable("posts");
