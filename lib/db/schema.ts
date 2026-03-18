@@ -169,10 +169,9 @@ posts.set("p2", {
   id: "p2",
   wrongField: true,
 });
-🔥 Optional: Enforce Runtime Validation
 
-If you want true safety beyond editor hints, add validators:
-
+// 🔥 Optional: Enforce Runtime Validation
+// If you want true safety beyond editor hints, add validators:
 export function createTable(validate) {
   const store = new Map();
 
