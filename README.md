@@ -23,6 +23,9 @@
     
     forcats – helps to manipulate category data types
 
+<img width="626" height="779" alt="Screenshot 2026-03-18 at 04 21 35" src="https://github.com/user-attachments/assets/49065822-d1f4-415c-a53d-46b743ee295f" />
+
+
 <img width="455" height="181" alt="Screenshot 2026-03-17 at 13 17 09" src="https://github.com/user-attachments/assets/1bcb71ae-1f2b-4eed-9ff4-4fb9ca6e954c" />
 
 <img width="1289" height="348" alt="Screenshot 2026-03-17 at 04 11 07" src="https://github.com/user-attachments/assets/b407c89b-907b-4dff-a3ef-ba2084d41efa" />
@@ -43,4 +46,6 @@
 
 <img width="1600" height="814" alt="software-stack-01111" src="https://github.com/user-attachments/assets/0122c8f0-8bf7-489f-89ae-5f11c007a756" />
 
+
+<img width="2326" height="1546" alt="Screenshot 2026-03-18 at 04 28 05" src="https://github.com/user-attachments/assets/26befb3f-5d18-425c-878f-0be4b6d81f07" />
 
