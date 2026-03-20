@@ -4,7 +4,29 @@
 
 <img width="419" height="168" alt="Screenshot 2026-03-17 at 14 14 37" src="https://github.com/user-attachments/assets/018e0968-02cf-4d24-aa5b-42d12728abc8" />
 
+Printer Driver Mode for TTY (Touch To You know... Make Xerox) 
 
+Mount a folder (./data) containing PDFs
+
+Container:
+
+Converts each PDF → .ps using Ghostscript
+
+Verifies both files
+
+Sends to print queue (lp)
+
+Continues until all files are processed
+
+Exits when finished (no daemon)
+
+Notes / Options
+
+If you want real printing, you’ll need to connect CUPS to a printer (network or USB).
+
+If this is for a printer farm / pool, you could scale:
+
+docker compose up --scale printer-pool=3
 
 
     tidyr – help transform data specifically into tidy data, a table where each row is a single observation. The value of each observation is given in a column of the table. Variables describing the observation are included as additional columns.
