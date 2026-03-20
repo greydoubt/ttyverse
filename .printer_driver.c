@@ -41,6 +41,14 @@ struct driver_attribute {
 
 #endif
 
+#ifndef debug
+
+DRIVER_ATTR_RW(debug); // struct driver_attribute driver_attr_debug;
+
+int driver_create_file(struct device_driver *, const struct driver_attribute *);
+void driver_remove_file(struct device_driver *, const struct driver_attribute *);
+
+#endif
 
 
 
