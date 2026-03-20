@@ -1,3 +1,5 @@
+#ifndef pce_driver
+
 struct pci_driver {
        const struct pci_device_id *id_table;
        struct device_driver     driver;
@@ -15,7 +17,36 @@ static struct device_driver eepro100_driver = {
 };
 
 
+int driver_register(struct device_driver *drv);
+
+int driver_for_each_dev(struct device_driver *drv, void *data,
+                        int (*callback)(struct device *dev, void *data));
+
+
+int     (*probe)        (struct device *dev);
+
+
+
+void    (*sync_state)   (struct device *dev);
+
+
+
+int     (*remove)       (struct device *dev);
+
+struct driver_attribute {
+        struct attribute        attr;
+        ssize_t (*show)(struct device_driver *driver, char *buf);
+        ssize_t (*store)(struct device_driver *, const char *buf, size_t count);
+};
+
+#endif
+
+
+
+
+
 #ifndef lint
+
 static char sccsid[] = "@(#)printcap.c	5.7 (Berkeley) 3/4/91";
 #endif /* not lint */
 
