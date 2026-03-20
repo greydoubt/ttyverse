@@ -1,4 +1,12 @@
+static struct device_driver eepro100_driver = {
+       .name          = "eepro100",
+       .bus           = &pci_bus_type,
 
+       .probe         = eepro100_probe,
+       .remove                = eepro100_remove,
+       .suspend               = eepro100_suspend,
+       .resume                = eepro100_resume,
+};
 
 
 #ifndef lint
