@@ -1,3 +1,9 @@
+struct pci_driver {
+       const struct pci_device_id *id_table;
+       struct device_driver     driver;
+};
+
+
 static struct device_driver eepro100_driver = {
        .name          = "eepro100",
        .bus           = &pci_bus_type,
