@@ -29,6 +29,9 @@ If this is for a printer farm / pool, you could scale:
 docker compose up --scale printer-pool=3
 
 
+Some tools the weirdo at the copy center made to process nudes without seeing my face:
+
+
     tidyr – help transform data specifically into tidy data, a table where each row is a single observation. The value of each observation is given in a column of the table. Variables describing the observation are included as additional columns.
     
     ggplot2 – for data visualization
