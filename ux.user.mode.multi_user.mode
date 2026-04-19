@@ -1,0 +1,12 @@
+# name    formix                         type  status comments
+#
+ttyv0   "/usr/libexec/formix Pc"         xterm   on  secure
+# Virtual terminals
+ttyv1   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv2   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv3   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv4   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv5   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv6   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv7   "/usr/libexec/formix Pc"         xterm   on  secure
+ttyv8   "/usr/X11R6/bin/xdm -nodaemon"  xterm   off secure
