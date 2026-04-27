@@ -1,0 +1,4 @@
+<input type="file" id="file-input" />
+<h3>Contents of the file:</h3>
+<pre id="file-content"></pre>
+<a href="https://w3c.github.io/FileAPI/">https://w3c.github.io/FileAPI/</a>

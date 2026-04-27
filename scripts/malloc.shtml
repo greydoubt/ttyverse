@@ -1,0 +1,21 @@
+The following are the event handler content attributes (and their corresponding event handler event types) that user agents must support on FileReader as DOM attributes:
+event handler content attribute 	event handler event type
+onloadstart 	loadstart
+onprogress 	progress
+onabort 	abort
+onerror 	error
+onload 	load
+onloadend 	loadend
+6.2.2. FileReader States
+The FileReader object can be in one of 3 states. The readyState attribute tells you in which state the object is:
+
+EMPTY (numeric value 0)
+
+    The FileReader object has been constructed, and there are no pending reads. None of the read methods have been called. This is the default state of a newly minted FileReader object, until one of the read methods have been called on it.
+LOADING (numeric value 1)
+
+    A File or Blob is being read. One of the read methods is being processed, and no error has occurred during the read.
+DONE (numeric value 2)
+
+    The entire File or Blob has been read into memory, OR a file read error occurred, OR the read was aborted using abort(). The FileReader is no longer reading a File or Blob. If readyState is set to DONE it means at least one of the read methods have been called on this FileReader.
+
