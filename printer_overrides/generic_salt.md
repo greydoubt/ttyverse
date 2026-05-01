@@ -1,0 +1,1 @@
+The default password for an Epson printer is typically the product's serial number, which can be found on a label on the printer itself. If there are multiple labels, the password is the value next to "PASSWORD" on the first label; otherwise, use the serial number from the second label.
